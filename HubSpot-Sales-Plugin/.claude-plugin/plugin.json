@@ -1,0 +1,19 @@
+{
+  "name": "hubspot-sales",
+  "version": "2.2.0",
+  "description": "HubSpot sales workflows: contact import, call prep, daily brief, follow-up drafting, call logging, contact lookup, and pipeline overview",
+  "keywords": [
+    "hubspot",
+    "sales",
+    "crm",
+    "outreach",
+    "call-prep",
+    "daily-brief",
+    "log-call",
+    "contact-lookup",
+    "pipeline-pulse"
+  ],
+  "connectors": [
+    "hubspot"
+  ]
+}
