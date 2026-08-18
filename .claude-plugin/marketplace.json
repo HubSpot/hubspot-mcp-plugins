@@ -1,0 +1,17 @@
+{
+  "name": "hubspot-claude-plugins",
+  "owner": { "name": "HubSpot" },
+  "metadata": {
+    "description": "Official HubSpot plugin marketplace for Claude — CRM contact, deal, and workflow management.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hubspot-sales-plugin",
+      "source": "./HubSpot-Sales-Plugin",
+      "description": "HubSpot CRM tools for managing contacts, deals, and onboarding workflows inside Claude.",
+      "category": "crm",
+      "tags": ["hubspot", "crm", "contacts", "deals", "sales"]
+    }
+  ]
+}
