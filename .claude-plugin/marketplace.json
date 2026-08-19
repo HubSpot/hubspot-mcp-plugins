@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "hubspot-sales-plugin",
-      "source": "./HubSpot-Sales-Plugin",
+      "name": "hubspot-sales",
+      "source": "./HubSpot-Sales",
       "description": "HubSpot CRM tools for managing contacts, deals, and onboarding workflows inside Claude.",
       "category": "crm",
       "tags": ["hubspot", "crm", "contacts", "deals", "sales"]
