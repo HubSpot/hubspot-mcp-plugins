@@ -1,0 +1,16 @@
+{
+  "name": "hubspot-partner",
+  "version": "1.0.0",
+  "description": "HubSpot Solutions Partner workflows: book-of-business overview across your PARTNER_CLIENT CRM records",
+  "keywords": [
+    "hubspot",
+    "partner",
+    "solutions-partner",
+    "partner-client",
+    "crm",
+    "book-pulse"
+  ],
+  "connectors": [
+    "hubspot"
+  ]
+}

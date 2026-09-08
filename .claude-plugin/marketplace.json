@@ -12,6 +12,13 @@
       "description": "HubSpot CRM tools for managing contacts, deals, and onboarding workflows inside Claude.",
       "category": "crm",
       "tags": ["hubspot", "crm", "contacts", "deals", "sales"]
+    },
+    {
+      "name": "hubspot-partner",
+      "source": "./HubSpot-Partner",
+      "description": "HubSpot Solutions Partner tools for managing your book of business — a portfolio pulse across your PARTNER_CLIENT records.",
+      "category": "crm",
+      "tags": ["hubspot", "crm", "partner", "solutions-partner", "book-pulse"]
     }
   ]
 }
