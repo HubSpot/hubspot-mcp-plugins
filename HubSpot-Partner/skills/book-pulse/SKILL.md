@@ -20,6 +20,8 @@ description: >
 
 Reads the **PARTNER_CLIENT** CRM object (`0-145`), scoped to the logged-in partner's portal. This is a **pulse, not a deep analysis** — keep it short and route the partner onward (see Phase 4).
 
+**Before anything else:** check the available HubSpot permissions/scopes. If the user has read access to PARTNER_CLIENT, continue. If not, this isn't a Solutions Partner portal — unload this skill, say so, and stop.
+
 ## Phase 1 — Read the active book
 
 Read the partner's **active** clients — the PARTNER_CLIENT records where `hs_is_active` is true. The pulse reports portfolio-level numbers (client count, total MRR, needs-attention counts), so compute them across the **whole active book** — not a sample or a single page. Don't cap the data you count (only the *rendered* lists are capped — see Phase 3).
