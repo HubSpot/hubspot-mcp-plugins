@@ -1,5 +1,8 @@
 {
   "mcpServers": {
-    "HubSpot": {}
+    "hubspot": {
+      "type": "http",
+      "url": "https://mcp.hubspot.com/anthropic"
+    }
   }
 }
