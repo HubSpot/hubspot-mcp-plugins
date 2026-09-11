@@ -4,20 +4,8 @@ This document lists all connectors required or optionally used by this plugin's 
 
 ## Bundled connector
 
-| Connector | Type | Endpoint |
-|-----------|------|----------|
-| HubSpot MCP | Bundled (via `.mcp.json`) | `https://mcp.hubspot.com/anthropic` |
-
-The HubSpot MCP server is the plugin's primary connector. It is configured in `.mcp.json` and provides all CRM tools (contacts, companies, deals, properties, search, etc.).
-
-### Authentication (OAuth)
-
-`.mcp.json` ships the `hubspot` server with no `oauth` block, mirroring Anthropic's reference plugin (`anthropics/knowledge-work-plugins`). Authentication relies on the OAuth client the HubSpot MCP server itself advertises (DCR / PKCE).
+This plugin bundles the **hubspot** connector in `.mcp.json`, referenced by name rather than by URL. It provides all CRM tools (contacts, companies, deals, properties, search, etc.) that this plugin's skills use.
 
 ## Optional connectors
 
-| Connector | Purpose | Category placeholder |
-|-----------|---------|----------------------|
-| Gmail | Pull contacts from email threads; log email history against CRM records | `~~email` |
-
-The `import-contacts` skill detects Gmail at runtime and offers it as a source if connected. The skill is fully functional without Gmail — manual CSV/paste import works independently.
+**Gmail** can optionally be connected to pull contacts from email threads and log email history against CRM records. The `import-contacts` skill detects Gmail at runtime and offers it as a source if connected, but works fully without it — manual CSV/paste import is always available.
