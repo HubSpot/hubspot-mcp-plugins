@@ -1,14 +1,17 @@
 {
   "name": "hubspot-partner",
-  "version": "1.0.0",
-  "description": "HubSpot Solutions Partner workflows: book-of-business overview across your PARTNER_CLIENT CRM records",
+  "version": "1.2.0",
+  "description": "HubSpot Solutions Partner workflows: book-of-business overview, renewal intelligence and expansion opportunities across your PARTNER_CLIENT CRM records",
   "keywords": [
     "hubspot",
     "partner",
     "solutions-partner",
     "partner-client",
     "crm",
-    "book-pulse"
+    "book-pulse",
+    "renewal-radar",
+    "renewals",
+    "expansion-opportunities"
   ],
   "connectors": [
     "hubspot"
