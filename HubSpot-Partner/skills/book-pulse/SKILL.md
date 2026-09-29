@@ -96,11 +96,10 @@ Top 3 by MRR: [name] [MRR] · [name] [MRR] · [name] [MRR]
 
 ## Phase 4 — What next?
 
-Close with only the lines that match what the pulse found — these are handoffs into the other partner skills, not work to do here. Health, renewal, and limited-data lines appear only when their count > 0. The **expansion** and **tell-me-about** lines always appear — expansion because the deeper skill checks seat/credit capacity that the ML signal (and this pulse) never looks at, so there may be opportunities beyond the ML count.
+Close with only the lines that match what the pulse found — these are handoffs into the other partner skills, not work to do here. Renewal and limited-data lines appear only when their count > 0. The **expansion** and **tell-me-about** lines always appear — expansion because the deeper skill checks seat/credit capacity that the ML signal (and this pulse) never looks at, so there may be opportunities beyond the ML count.
 
 ```
 What next?
-🔴 "health scan" — churn analysis for the [N] at-risk clients
 📅 "renewal radar" — the [N] renewals in the next 90 days
 📈 "expansion opportunities" — [N] flagged by ML signals (incl. cross-sell); it also finds seat/credit-maxed
 🔧 "why the limited data?" — look into the [N] clients with limited data
