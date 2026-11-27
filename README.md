@@ -13,13 +13,25 @@ Official HubSpot plugins for Claude Code, powered by the [HubSpot MCP Server](ht
 
 ### Claude Code (CLI)
 
-Run:
+In Claude Code, add the HubSpot marketplace:
 
-```
-/install-plugin https://github.com/HubSpot/hubspot-mcp-plugins
+```text
+/plugin marketplace add HubSpot/hubspot-mcp-plugins
 ```
 
-You will be prompted to select which plugin to install. Choose the one that fits your workflow.
+Then run the command for the plugin you want.
+
+**HubSpot Sales**
+
+```text
+/plugin install hubspot-sales@hubspot-claude-plugins
+```
+
+**HubSpot Partner**
+
+```text
+/plugin install hubspot-partner@hubspot-claude-plugins
+```
 
 ### Claude Desktop App
 
