@@ -4,7 +4,7 @@ This document lists all connectors required or optionally used by this plugin's 
 
 ## Bundled connector
 
-This plugin bundles the **hubspot** connector in `.mcp.json`, referenced by name rather than by URL. It provides all CRM tools (contacts, companies, deals, properties, search, etc.) that this plugin's skills use.
+This plugin configures the **hubspot** HTTP connector in `.mcp.json`. It provides all CRM tools (contacts, companies, deals, properties, search, etc.) that this plugin's skills use.
 
 ## Optional connectors
 
